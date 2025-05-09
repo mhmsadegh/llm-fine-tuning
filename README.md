@@ -27,9 +27,10 @@ tokenizer = AutoTokenizer.from_pretrained("mhmsadegh/gemma-3-4b-it-fashion-query
 prompt = "Query: red hoodie\nRewrite:"
 inputs = tokenizer(prompt, return_tensors="pt").to(model.device)
 outputs = model.generate(**inputs, max_new_tokens=50)
-print(tokenizer.decode(outputs[0], skip_special_tokens=True))
+print(tokenizer.decode(outputs[0], skip_special_tokens=True))‍‍‍‍‍
+```
 
-📦 Files
+## 📦 Files
 
 This repo includes:
 	•	Tokenizer files
@@ -37,7 +38,7 @@ This repo includes:
 	•	Chat template & config files
 	•	Special tokens for alignment
 
-✍️ Author
+## Author
 
-Fine-tuned by @mhmsadegh
+Fine-tuned by https://www.linkedin.com/in/mhmsadegh/
 
