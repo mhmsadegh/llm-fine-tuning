@@ -5,9 +5,9 @@ This is a fine-tuned version of [`unsloth/gemma-3-4b-it`](https://huggingface.co
 
 ## 🔍 Task
 
-> **Fashion Query Rewriting**: Rewrite user queries in the fashion domain to a more descriptive, model-friendly format.  
+> **Fashion Query Rewriting**: Extract product attributes from the input query.
 > For example, converting:
-> - "shoes black" → "I'm looking for a pair of stylish black shoes suitable for formal wear."
+> - "پیژامه هلو کیتی"" →"{\"Category\": [\"pants\"], \"Persian-Product-Name\": [\"پیژامه\"], \"Gender\": [], \"English-Query\": [\"Hello Kitty pajamas\"], \"Color\": [\"pink\"], \"Similar-Keywords\": []}"}"
 
 ## 🧪 Model Details
 
